@@ -1,0 +1,24 @@
+{
+  "name": "TypeMemer",
+  "version": "1.0.0",
+  "description": "Type Racer like game but for memes :D",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evillatoro/Type-Memer.git"
+  },
+  "author": "Edwin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/evillatoro/Type-Memer/issues"
+  },
+  "homepage": "https://github.com/evillatoro/Type-Memer#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0"
+  }
+}
