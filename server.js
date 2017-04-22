@@ -56,7 +56,7 @@ app.use(express.static(path.join(__dirname, "app")));
 
 
 app.all('*', function (req, res) {
-    res.redirect("/");
+    res.redirect("/index.html");
 });
 
 app.listen(port, function () {
